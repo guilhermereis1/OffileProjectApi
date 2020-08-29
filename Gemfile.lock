@@ -72,6 +72,8 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
       zeitwerk (~> 2.2, >= 2.2.2)
+    ar-uuid (0.2.1)
+      activerecord
     bootsnap (1.4.8)
       msgpack (~> 1.0)
     builder (3.2.4)
@@ -166,6 +168,7 @@ PLATFORMS
 
 DEPENDENCIES
   annotate!
+  ar-uuid
   bootsnap (>= 1.4.2)
   byebug
   faker!
